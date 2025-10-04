@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02db01f7-afc1-4ddb-a342-b02f5906ecd4">
+  <producedTypes>
+    <refType typeId="43e8c19a-ea78-4e5e-ac3e-dc3c2d396b77" valueTypeId="703bcb3c-174a-4cc2-aeeb-76656edabf02"/>
+    <listType typeId="396bcf58-8b2e-43f6-b36a-c545acb5c3c4" valueTypeId="9070c60c-6da0-4a8e-9453-46faca69f72c"/>
+    <managerType typeId="2c69b22b-7a64-4bbe-8f0e-c8fb4c2b8c01" valueTypeId="68d7c74d-e82e-429f-82be-1cf5c9cf3115"/>
+  </producedTypes>
+  <name>ВидДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид договора</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="87dfeae9-46b5-4a3d-8f8f-d05797ecfcc8">
+    <name>САрендодателем</name>
+    <synonym>
+      <key>ru</key>
+      <value>С арендодателем</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daf432ea-4ae0-4546-908b-8d69c5b92568">
+    <name>САрендатором</name>
+    <synonym>
+      <key>ru</key>
+      <value>С арендатором</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

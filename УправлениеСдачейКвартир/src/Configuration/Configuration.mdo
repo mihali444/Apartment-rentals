@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e079f6cd-01fe-45f8-8902-d9bfda07778f">
+  <name>УправлениеАгентствомПоСдачеКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление агентством по сдаче квартир</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c2631134-c243-48f9-9ebd-a75ab49828a5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fcd07b36-5f03-4aa7-bfb1-f73e3b316552"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="947df13f-0911-4604-989d-27707d35d54e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="632ea84d-6f5e-4e6a-8823-17f218a960b0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="36102673-6651-4040-9290-40d6f8b24662"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5aed164c-395e-4a86-9ad6-f2c1c2d03372"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6dcd39da-ee70-4b1b-80d6-670865febba2"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>1С</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Малкин Михаил</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="6e91cee3-8e8a-4a06-954d-5b7784b2dd2f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Квартиры</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <documents>Document.ПродлениеАренды</documents>
+  <documents>Document.СдачаВАренду</documents>
+  <enums>Enum.ВидДоговора</enums>
+  <reports>Report.АрендаЗаПериод</reports>
+  <informationRegisters>InformationRegister.ЦеныНаКвартиры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
