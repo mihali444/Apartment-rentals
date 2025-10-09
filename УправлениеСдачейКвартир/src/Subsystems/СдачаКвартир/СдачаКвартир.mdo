@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bb08550-6926-4666-b5f0-c9782ea0dcf8">
+  <name>СдачаКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сдача квартир</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Договоры</content>
+  <content>Catalog.Квартиры</content>
+  <content>Catalog.Клиенты</content>
+  <content>Document.ПродлениеАренды</content>
+  <content>Document.СдачаВАренду</content>
+  <content>Report.АрендаЗаПериод</content>
+</mdclass:Subsystem>

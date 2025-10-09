@@ -45,6 +45,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ПриёмКвартир</subsystems>
+  <subsystems>Subsystem.СдачаКвартир</subsystems>
+  <roles>Role.МенеджерПоРаботеСАрендаторами</roles>
+  <roles>Role.МенеджерПоРаботеССобственниками</roles>
+  <roles>Role.ПолныеПрава</roles>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
