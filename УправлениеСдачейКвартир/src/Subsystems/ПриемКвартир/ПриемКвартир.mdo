@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32fc47a4-0cba-4b7f-8b12-b3d62b20e42f">
-  <name>ПриёмКвартир</name>
+  <name>ПриемКвартир</name>
   <synonym>
     <key>ru</key>
-    <value>Приём квартир</value>
+    <value>Прием квартир</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

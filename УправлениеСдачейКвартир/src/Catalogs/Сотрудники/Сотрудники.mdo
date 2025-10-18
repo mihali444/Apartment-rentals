@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bbfbf79-8702-4997-a6cb-03c51299d9a6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68b1ef70-448b-4a46-805c-3b349cf41598">
   <producedTypes>
-    <objectType typeId="aabe3c2f-312b-4f6b-b810-89d38be63a11" valueTypeId="86808999-af73-4127-accb-42e387a2338c"/>
-    <refType typeId="4f88d62b-57a0-446a-b6ef-43e6503ac252" valueTypeId="c08ca937-9c83-40b7-b691-c4702a1d2324"/>
-    <selectionType typeId="b362b913-0c66-4f8b-8e48-ff4d12d8a55f" valueTypeId="26a215fe-5f74-4e4d-b3db-2e6725e352ee"/>
-    <listType typeId="28a7b011-1f69-4d35-af04-2f76fc153097" valueTypeId="23e5b120-15a1-4cb8-9f6f-4209ae200b39"/>
-    <managerType typeId="0a3d7c38-6ae1-41b2-a13e-4d83e17f0275" valueTypeId="e5fbf3b4-af21-484c-a5a4-444bb5a066e2"/>
+    <objectType typeId="fc1f25f2-0310-4ddc-a551-37235fd39649" valueTypeId="6ca629bb-b4af-4dce-9b63-2e6075981cc2"/>
+    <refType typeId="89d1829f-9abb-4eba-b666-419ee1750e8d" valueTypeId="d9c1b3dc-64f3-400d-adc4-c6599a5b912e"/>
+    <selectionType typeId="46a8f842-e231-4f9a-b4b5-6d0f32e38ab5" valueTypeId="c92554f8-1c02-4b83-a8a5-75aceaa34753"/>
+    <listType typeId="f4aa27f4-8680-470a-9810-2e0f1f5822b9" valueTypeId="de1308da-6eae-4c34-b6d0-c9fb485de10e"/>
+    <managerType typeId="05f7c347-ac09-4ac6-8395-0492df048158" valueTypeId="b64d8b3f-8047-4ba3-a361-f89835d14160"/>
   </producedTypes>
-  <name>Клиенты</name>
+  <name>Сотрудники</name>
   <synonym>
     <key>ru</key>
-    <value>Клиенты</value>
+    <value>Сотрудники</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -98,7 +98,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Клиент</value>
+    <value>Сотрудник</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -111,33 +111,15 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="1da58e7c-2551-40c7-b9ab-e95f0bf7f84e">
-    <name>Телефон</name>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="273f9072-6096-440a-afea-b440d68e829c">
+    <name>Должность</name>
     <synonym>
       <key>ru</key>
-      <value>Телефон</value>
+      <value>Должность</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </type>
-    <mask>+7 (999)-999-99-99</mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="8f746b34-b621-4d7d-86c7-c9b6499128f5">
-    <name>Статус</name>
-    <synonym>
-      <key>ru</key>
-      <value>Статус</value>
-    </synonym>
-    <type>
-      <types>EnumRef.Статус</types>
+      <types>EnumRef.Должность</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -146,4 +128,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="08b00188-ccf8-4e00-bb51-56b9184a1251">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

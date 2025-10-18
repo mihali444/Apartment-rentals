@@ -46,7 +46,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
-  <subsystems>Subsystem.ПриёмКвартир</subsystems>
+  <subsystems>Subsystem.ПриемКвартир</subsystems>
   <subsystems>Subsystem.СдачаКвартир</subsystems>
   <roles>Role.МенеджерПоРаботеСАрендаторами</roles>
   <roles>Role.МенеджерПоРаботеССобственниками</roles>
@@ -54,9 +54,12 @@
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
   <enums>Enum.ВидДоговора</enums>
+  <enums>Enum.Должность</enums>
+  <enums>Enum.Статус</enums>
   <reports>Report.АрендаЗаПериод</reports>
   <informationRegisters>InformationRegister.ЦеныНаКвартиры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>

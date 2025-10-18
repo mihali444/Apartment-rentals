@@ -39,7 +39,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ПриёмКвартир</name>
+		<name>Subsystem.ПриемКвартир</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -57,10 +57,6 @@
 		</right>
 		<right>
 			<name>ThickClient</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ExternalConnection</name>
 			<value>true</value>
 		</right>
 		<right>
