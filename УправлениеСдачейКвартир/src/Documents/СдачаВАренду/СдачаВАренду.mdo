@@ -103,10 +103,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c9ae7ca0-1101-46d0-b46f-10080169993c">
-    <name>Стоимость</name>
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Стоимость</value>
+      <value>Сумма</value>
     </synonym>
     <type>
       <types>Number</types>

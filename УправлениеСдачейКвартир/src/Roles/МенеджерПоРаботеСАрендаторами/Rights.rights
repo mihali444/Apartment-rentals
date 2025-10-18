@@ -389,20 +389,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.СдачаКвартир</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Subsystem.НСИ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Configuration.УправлениеАгентствомПоСдачеКвартир</name>
 		<right>
 			<name>Administration</name>
@@ -472,7 +458,15 @@
 	<object>
 		<name>Catalog.Квартиры</name>
 		<right>
+			<name>Insert</name>
+			<value>false</value>
+		</right>
+		<right>
 			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
 			<value>false</value>
 		</right>
 		<right>
