@@ -51,6 +51,8 @@
   <roles>Role.МенеджерПоРаботеСАрендаторами</roles>
   <roles>Role.МенеджерПоРаботеССобственниками</roles>
   <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.ЦеныКвартир</commonModules>
+  <commonModules>CommonModule.ЦеныКвартирВызовСервера</commonModules>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>

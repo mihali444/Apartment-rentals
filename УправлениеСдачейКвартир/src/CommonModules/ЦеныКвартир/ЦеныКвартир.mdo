@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b0e474-1996-4fb6-a23c-d91e33c009eb">
+  <name>ЦеныКвартир</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены квартир</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

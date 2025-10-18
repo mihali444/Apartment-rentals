@@ -622,15 +622,7 @@
 	<object>
 		<name>InformationRegister.ЦеныНаКвартиры</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
 			<value>false</value>
 		</right>
 		<right>
