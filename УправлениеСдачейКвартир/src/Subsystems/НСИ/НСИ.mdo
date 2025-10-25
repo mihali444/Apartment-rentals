@@ -15,4 +15,5 @@
   <content>Catalog.Сотрудники</content>
   <content>Document.УстановкаЦенКвартир</content>
   <content>InformationRegister.ЦеныНаКвартиры</content>
+  <content>SessionParameter.ТекущийПользователь</content>
 </mdclass:Subsystem>

@@ -48,6 +48,7 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.ПриемКвартир</subsystems>
   <subsystems>Subsystem.СдачаКвартир</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.МенеджерПоРаботеСАрендаторами</roles>
   <roles>Role.МенеджерПоРаботеССобственниками</roles>
   <roles>Role.ПолныеПрава</roles>

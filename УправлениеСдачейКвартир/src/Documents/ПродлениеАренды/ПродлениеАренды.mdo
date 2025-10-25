@@ -19,10 +19,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <extendedListPresentation>
+  <listPresentation>
     <key>ru</key>
-    <value>Список документов о Продлении аренды</value>
-  </extendedListPresentation>
+    <value>Журнал документов продления аренды</value>
+  </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
