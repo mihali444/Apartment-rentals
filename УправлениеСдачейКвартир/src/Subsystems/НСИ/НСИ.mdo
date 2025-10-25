@@ -13,4 +13,6 @@
   <content>Document.ПродлениеАренды</content>
   <content>Document.СдачаВАренду</content>
   <content>Catalog.Сотрудники</content>
+  <content>Document.УстановкаЦенКвартир</content>
+  <content>InformationRegister.ЦеныНаКвартиры</content>
 </mdclass:Subsystem>

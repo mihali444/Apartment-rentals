@@ -11,4 +11,5 @@
   <content>Catalog.Договоры</content>
   <content>InformationRegister.ЦеныНаКвартиры</content>
   <content>Catalog.Клиенты</content>
+  <content>Document.УстановкаЦенКвартир</content>
 </mdclass:Subsystem>

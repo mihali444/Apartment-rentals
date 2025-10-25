@@ -59,6 +59,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
+  <documents>Document.УстановкаЦенКвартир</documents>
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.Должность</enums>
   <enums>Enum.Статус</enums>

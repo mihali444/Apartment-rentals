@@ -1,667 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://v8.1c.ru/8.2/roles" xsi:type="Rights">
-	<setForNewObjects>true</setForNewObjects>
+	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>AccumulationRegister.Продажи</name>
+		<name>Document.УстановкаЦенКвартир</name>
 		<right>
 			<name>Read</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>false</value>
+			<name>Delete</name>
+			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.StandardAttribute.Posted</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.StandardAttribute.Ref</name>
 		<right>
-			<name>TotalsControl</name>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Клиенты</name>
 		<right>
-			<name>Delete</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ПриемКвартир</name>
+		<name>Document.УстановкаЦенКвартир.TabularSection.ЦеныНаКвратиры.Attribute.Цена</name>
 		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.ПродлениеАренды</name>
 		<right>
-			<name>Delete</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.TabularSection.ЦеныНаКвратиры.Attribute.Квартира</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
-		</right>
 	</object>
 	<object>
-		<name>Report.АрендаЗаПериод</name>
+		<name>Document.УстановкаЦенКвартир.Attribute.Ответственный</name>
 		<right>
-			<name>Use</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
+			<name>Edit</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.СдачаВАренду</name>
 		<right>
-			<name>Delete</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.Attribute.Комментарий</name>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Сотрудники</name>
-		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>false</value>
-		</right>
+		<name>Subsystem.СдачаКвартир</name>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
+	</object>
+	<object>
+		<name>Document.УстановкаЦенКвартир.TabularSection.ЦеныНаКвратиры</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
+	</object>
+	<object>
+		<name>Subsystem.НСИ</name>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Configuration.УправлениеАгентствомПоСдачеКвартир</name>
 		<right>
-			<name>Administration</name>
-			<value>false</value>
+			<name>ThinClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>DataAdministration</name>
-			<value>false</value>
+			<name>WebClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>UpdateDataBaseConfiguration</name>
-			<value>false</value>
+			<name>ThickClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ExclusiveMode</name>
-			<value>false</value>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ActiveUsers</name>
-			<value>false</value>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>EventLog</name>
-			<value>false</value>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>MobileClient</name>
-			<value>false</value>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>ExternalConnection</name>
-			<value>false</value>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>Automation</name>
-			<value>false</value>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>TechnicalSpecialistMode</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>CollaborationSystemInfoBaseRegistration</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ExclusiveModeTerminationAtSessionStart</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ConfigurationExtensionsAdministration</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtDataProcessors</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveOpenExtReports</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Output</name>
-			<value>false</value>
+			<name>SaveUserData</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Квартиры</name>
 		<right>
-			<name>Insert</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>Delete</name>
-			<value>false</value>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>Catalog.Договоры</name>
 		<right>
-			<name>Delete</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
-			<value>false</value>
+			<name>Insert</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>false</value>
+			<name>Update</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>false</value>
+			<name>InteractiveInsert</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDeletePredefinedData</name>
-			<value>false</value>
+			<name>Edit</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarkedPredefinedData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>InputByString</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ЦеныНаКвартиры</name>
 		<right>
-			<name>Update</name>
-			<value>false</value>
+			<name>Read</name>
+			<value>true</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>false</value>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 </Rights>

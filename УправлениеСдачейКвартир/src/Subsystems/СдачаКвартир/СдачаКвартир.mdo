@@ -13,4 +13,5 @@
   <content>Document.ПродлениеАренды</content>
   <content>Document.СдачаВАренду</content>
   <content>Report.АрендаЗаПериод</content>
+  <content>Document.УстановкаЦенКвартир</content>
 </mdclass:Subsystem>
