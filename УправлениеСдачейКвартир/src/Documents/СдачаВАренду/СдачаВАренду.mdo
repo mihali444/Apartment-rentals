@@ -20,7 +20,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Список документов о Сдаче в ареду</value>
+    <value>Журнал документов о Сдаче в ареду</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

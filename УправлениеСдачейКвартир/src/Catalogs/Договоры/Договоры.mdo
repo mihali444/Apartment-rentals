@@ -108,11 +108,11 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Договоры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Договоры.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="8c4dbd78-c0ee-4ba0-848e-7a4d3786df84">
     <name>Квартира</name>
     <synonym>
@@ -249,6 +249,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d29584f6-ef83-4d38-8ecd-5e852f98890c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
