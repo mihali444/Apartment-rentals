@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4fe873b-c7ae-4b6a-a001-9598a2a41eb8">
-  <name>РассчетКоличестваДней</name>
+  <name>РассчетКоличестваВремени</name>
   <synonym>
     <key>ru</key>
-    <value>Рассчет количества дней</value>
+    <value>Рассчет количества времени</value>
   </synonym>
   <clientManagedApplication>true</clientManagedApplication>
   <server>true</server>

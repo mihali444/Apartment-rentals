@@ -71,6 +71,21 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПринятиеВАренду</name>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Квартиры</name>
 		<right>
 			<name>InteractiveDelete</name>

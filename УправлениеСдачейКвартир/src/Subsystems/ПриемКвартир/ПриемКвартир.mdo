@@ -12,4 +12,5 @@
   <content>InformationRegister.ЦеныНаКвартиры</content>
   <content>Catalog.Клиенты</content>
   <content>Document.УстановкаЦенКвартир</content>
+  <content>Document.ПринятиеВАренду</content>
 </mdclass:Subsystem>
