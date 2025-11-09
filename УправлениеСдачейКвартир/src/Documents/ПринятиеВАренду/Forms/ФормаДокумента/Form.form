@@ -215,6 +215,7 @@
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <extendedEditMultipleValues>true</extendedEditMultipleValues>
             <chooseType>true</chooseType>
@@ -260,6 +261,7 @@
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
             <wrap>true</wrap>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
@@ -361,6 +363,7 @@
         <key>ru</key>
         <value>Левая колонка</value>
       </title>
+      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
         <name>ЛеваяКолонкаРасширеннаяПодсказка</name>
         <id>41</id>

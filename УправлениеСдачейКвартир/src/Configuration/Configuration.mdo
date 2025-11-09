@@ -68,5 +68,6 @@
   <enums>Enum.Статус</enums>
   <reports>Report.АрендаЗаПериод</reports>
   <informationRegisters>InformationRegister.ЦеныНаКвартиры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Покупки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
