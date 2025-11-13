@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04287d46-5eeb-4a08-9211-0f9a0ed8f31b">
+  <producedTypes>
+    <selectionType typeId="bf6bfb2f-64ee-42ba-8184-3977db5d2e3c" valueTypeId="9e2dce13-68ab-4e6d-afc1-dcdf964cbc06"/>
+    <listType typeId="4fe256f5-f4ec-4b88-a6dd-b7e3262d6eda" valueTypeId="31bb77cf-fe97-4a96-b799-94d0a6501613"/>
+    <managerType typeId="0f4646c6-b874-4a3d-9e34-be5108e6ab94" valueTypeId="ed82bf8d-4ce9-4340-a00a-a4e9db892671"/>
+    <recordSetType typeId="435b8cc2-bbba-4186-a5f4-960cad05cb00" valueTypeId="fb07bcbb-bd82-43f7-9ef1-404148b49a5a"/>
+    <recordKeyType typeId="42d4e5e3-b9bd-4b36-85c8-b2df3249267d" valueTypeId="1cbc69ec-3b15-4d6e-85b5-c56a360c214e"/>
+    <recordType typeId="933a43db-2dbb-498b-93fb-5b961ddaa0cb" valueTypeId="f10908aa-f1f4-4c17-bfeb-bc210adf1195"/>
+  </producedTypes>
+  <name>ЗадолженностьПередАрендодателями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность перед арендодателями</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f63ccd67-1182-4c09-8b3b-16c46f3a096b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="30ef3b6e-b9a2-45d7-9770-98f73bfde521">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="70d7c8a3-761a-45b9-a2ce-e6b4b880bfd4">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

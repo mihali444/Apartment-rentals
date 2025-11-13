@@ -13,4 +13,7 @@
   <content>Catalog.Клиенты</content>
   <content>Document.УстановкаЦенКвартир</content>
   <content>Document.ПринятиеВАренду</content>
+  <content>AccumulationRegister.ЗадолженностьПередАрендодателями</content>
+  <content>Document.СписаниеСРассчетногоСчета</content>
+  <content>AccumulationRegister.АвансыАрендодателям</content>
 </mdclass:Subsystem>

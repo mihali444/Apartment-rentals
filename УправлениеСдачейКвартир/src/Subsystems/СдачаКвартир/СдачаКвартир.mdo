@@ -14,4 +14,7 @@
   <content>Document.СдачаВАренду</content>
   <content>Report.АрендаЗаПериод</content>
   <content>Document.УстановкаЦенКвартир</content>
+  <content>Document.ПоступлениеНаРассчетныйСчет</content>
+  <content>AccumulationRegister.ЗадолженностьАрендаторов</content>
+  <content>AccumulationRegister.АвансыАрендаторов</content>
 </mdclass:Subsystem>

@@ -30,6 +30,8 @@
   <defaultObjectForm>Document.ПринятиеВАренду.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПринятиеВАренду.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Покупки</registerRecords>
+  <registerRecords>AccumulationRegister.ЗадолженностьПередАрендодателями</registerRecords>
+  <registerRecords>AccumulationRegister.АвансыАрендодателям</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="5672826d-1f20-4fbd-a987-c314462d089f">
