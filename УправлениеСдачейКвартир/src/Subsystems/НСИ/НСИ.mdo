@@ -16,4 +16,5 @@
   <content>Document.УстановкаЦенКвартир</content>
   <content>InformationRegister.ЦеныНаКвартиры</content>
   <content>SessionParameter.ТекущийПользователь</content>
+  <content>InformationRegister.КонтрольСдачиКвартир</content>
 </mdclass:Subsystem>

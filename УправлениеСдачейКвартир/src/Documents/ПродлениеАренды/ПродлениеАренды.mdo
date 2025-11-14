@@ -33,6 +33,7 @@
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <registerRecords>AccumulationRegister.АвансыАрендаторов</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьАрендаторов</registerRecords>
+  <registerRecords>InformationRegister.КонтрольСдачиКвартир</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="789d5f90-9078-4c32-b3db-48cced81d5fb">

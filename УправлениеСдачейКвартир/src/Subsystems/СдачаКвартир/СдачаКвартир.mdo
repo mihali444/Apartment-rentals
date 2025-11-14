@@ -17,4 +17,5 @@
   <content>Document.ПоступлениеНаРассчетныйСчет</content>
   <content>AccumulationRegister.ЗадолженностьАрендаторов</content>
   <content>AccumulationRegister.АвансыАрендаторов</content>
+  <content>InformationRegister.КонтрольСдачиКвартир</content>
 </mdclass:Subsystem>
