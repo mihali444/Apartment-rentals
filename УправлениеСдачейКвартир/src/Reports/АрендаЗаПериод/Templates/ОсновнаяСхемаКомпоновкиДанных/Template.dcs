@@ -37,20 +37,71 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СебестоимостьОборот</dataPath>
+			<field>СебестоимостьОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Себестоимость</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Клиент КАК Клиент,
 	ПродажиОбороты.Квартира КАК Квартира,
 	ПродажиОбороты.Договор КАК Договор,
-	ПродажиОбороты.СуммаОборот КАК СуммаОборот
+	ПродажиОбороты.СуммаОборот КАК СуммаОборот,
+	ПродажиОбороты.СебестоимостьОборот КАК СебестоимостьОборот
 ИЗ
 	РегистрНакопления.Продажи.Обороты КАК ПродажиОбороты</query>
 	</dataSet>
+	<calculatedField>
+		<dataPath>МаржинальнаяПрибыль</dataPath>
+		<expression>СуммаОборот - СебестоимостьОборот</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Маржинальная прибыль</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
+	<calculatedField>
+		<dataPath>МаржинальнаяРентабельность</dataPath>
+		<expression>ВЫБОР
+	КОГДА СуммаОборот = 0
+		ТОГДА 0
+	ИНАЧЕ (СуммаОборот - СебестоимостьОборот) / СуммаОборот
+КОНЕЦ</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Маржинальная рентабельность</v8:content>
+			</v8:item>
+		</title>
+	</calculatedField>
 	<totalField>
 		<dataPath>СуммаОборот</dataPath>
 		<expression>Сумма(СуммаОборот)</expression>
 		<group>Клиент</group>
 		<group>ОбщийИтог</group>
+	</totalField>
+	<totalField>
+		<dataPath>СебестоимостьОборот</dataPath>
+		<expression>Сумма(СебестоимостьОборот)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МаржинальнаяПрибыль</dataPath>
+		<expression>Сумма(МаржинальнаяПрибыль)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МаржинальнаяРентабельность</dataPath>
+		<expression>ВЫБОР
+	КОГДА СУММА(СуммаОборот) = 0
+		ТОГДА 0
+	ИНАЧЕ (СУММА(СуммаОборот) - СУММА(СебестоимостьОборот)) / СУММА(СуммаОборот)
+КОНЕЦ</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -118,6 +169,15 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СуммаОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СебестоимостьОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаржинальнаяПрибыль</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>МаржинальнаяРентабельность</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
