@@ -73,6 +73,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="4dd57503-2fed-4ccf-8f44-8ea1c47ec0af">
+    <name>ЗагрузкаИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка из файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="bec196f6-97b6-4274-9f79-c9a718cf6123">
     <producedTypes>
       <objectType typeId="c1dff666-f4d0-44b0-a31d-f5791b202664" valueTypeId="f375c64f-7e28-4046-b9cf-f3099131b3e8"/>
