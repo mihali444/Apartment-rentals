@@ -17,4 +17,5 @@
   <content>InformationRegister.ЦеныНаКвартиры</content>
   <content>SessionParameter.ТекущийПользователь</content>
   <content>InformationRegister.КонтрольСдачиКвартир</content>
+  <content>DataProcessor.ВыгрузитьСотрудниковВАрхив</content>
 </mdclass:Subsystem>
