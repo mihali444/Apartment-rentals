@@ -18,4 +18,5 @@
   <content>SessionParameter.ТекущийПользователь</content>
   <content>InformationRegister.КонтрольСдачиКвартир</content>
   <content>DataProcessor.ВыгрузитьСотрудниковВАрхив</content>
+  <content>Report.АктСверки</content>
 </mdclass:Subsystem>

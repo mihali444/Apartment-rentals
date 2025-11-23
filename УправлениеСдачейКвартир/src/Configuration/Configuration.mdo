@@ -68,6 +68,7 @@
   <enums>Enum.ВидДоговора</enums>
   <enums>Enum.Должность</enums>
   <enums>Enum.Статус</enums>
+  <reports>Report.АктСверки</reports>
   <reports>Report.АрендаЗаПериод</reports>
   <dataProcessors>DataProcessor.ВыгрузитьСотрудниковВАрхив</dataProcessors>
   <informationRegisters>InformationRegister.КонтрольСдачиКвартир</informationRegisters>
