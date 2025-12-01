@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f153a261-fa1c-4d20-be51-4601a14cef96">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1628d18c-3978-4695-886c-ce875a6ba688">
   <producedTypes>
-    <objectType typeId="cbed7ee7-3b0e-4132-a840-d5711be5e7c4" valueTypeId="74d28ccd-ef9e-41d8-80aa-2123f365e354"/>
-    <refType typeId="e85125d7-3762-4f1c-84bb-ceca3e558f58" valueTypeId="a79bd332-1264-4f3e-8a6c-1c85c523a394"/>
-    <selectionType typeId="1a2b62ce-d624-4c19-b6a6-ac53683732bc" valueTypeId="718a089b-b88a-4275-8ef2-3d3b7907a3cb"/>
-    <listType typeId="b10fb294-9177-458c-a63c-793758b93da6" valueTypeId="13b661e9-f452-4a31-934a-80fc94b1440d"/>
-    <managerType typeId="104bf9a1-f853-421c-b8e5-25c9563a03fe" valueTypeId="b6f48fe1-8165-446b-810c-df1be737a029"/>
+    <objectType typeId="a9363df7-5485-4531-b60e-dd2cce90b110" valueTypeId="ea7ed685-2067-4cfc-af8a-3fcdc576082e"/>
+    <refType typeId="e95d6af9-0464-4a74-837e-6136a8bdfd48" valueTypeId="213607da-a0e9-4dce-99e1-fefdffd6df3a"/>
+    <selectionType typeId="2c071366-bec3-4bcc-964f-cddaa1857be0" valueTypeId="89450525-2509-413e-afaa-e3af5ad5a510"/>
+    <listType typeId="b33bd60c-af28-4ea2-af65-570470efda96" valueTypeId="44d9757a-24c0-4fd4-84cb-192593d6ad29"/>
+    <managerType typeId="11cc8ce6-0dfe-498e-bb1c-ed572d690b4b" valueTypeId="b9946ab5-7952-41c3-bc73-b1e67382da0c"/>
   </producedTypes>
-  <name>Квартиры</name>
+  <name>Клиенты</name>
   <synonym>
     <key>ru</key>
-    <value>Квартиры</value>
+    <value>Клиенты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Квартиры.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Квартиры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -77,7 +77,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес</value>
+      <value>ФИО</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -98,9 +98,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Квартира</value>
+    <value>Клиент</value>
   </objectPresentation>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -112,19 +111,33 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="cfaac874-16b2-400b-8311-30356300bad5">
-    <name>КоличествоКомнат</name>
+  <attributes uuid="aba3ae70-1b82-4ea1-a3e0-644773792482">
+    <name>Телефон</name>
     <synonym>
       <key>ru</key>
-      <value>Количество комнат</value>
+      <value>Телефон</value>
     </synonym>
-    <comment>Если студия, то комнат - 0</comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <mask>+7 (999)-999-99-99</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d78a188-1626-486a-9d08-44620649e939">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

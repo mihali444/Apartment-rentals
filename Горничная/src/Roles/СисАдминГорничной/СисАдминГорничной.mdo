@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eabbf93e-0432-4d4f-bcfd-80422c9242a6">
+  <name>СисАдминГорничной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сис админ горничной</value>
+  </synonym>
+</mdclass:Role>

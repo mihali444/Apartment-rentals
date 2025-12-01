@@ -3,125 +3,21 @@
   <items xsi:type="form:FormGroup">
     <name>ФотоКодИФИО</name>
     <id>25</id>
-    <items xsi:type="form:FormGroup">
-      <name>КнопкаИФото</name>
-      <id>34</id>
-      <items xsi:type="form:FormField">
-        <name>АдресФото</name>
-        <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>АдресФото</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <extendedTooltip>
-          <name>АдресФотоРасширеннаяПодсказка</name>
-          <id>31</id>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>АдресФотоКонтекстноеМеню</name>
-          <id>30</id>
-          <items xsi:type="form:Button">
-            <name>АдресФотоКонтекстноеМенюОчистить</name>
-            <id>32</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>АдресФотоКонтекстноеМенюОчиститьРасширеннаяПодсказка</name>
-              <id>33</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.Очистить</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
-            <name>ВставитьИзБуфераОбмена</name>
-            <id>36</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ВставитьИзБуфераОбменаРасширеннаяПодсказка</name>
-              <id>37</id>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.ВставитьИзБуфераОбмена</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>PictureField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:ImageFieldExtInfo">
-          <handlers>
-            <event>Click</event>
-            <name>АдресФотоНажатие</name>
-          </handlers>
-          <width>10</width>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <verticalStretch>true</verticalStretch>
-          <pictureSize>Proportionally</pictureSize>
-          <hyperlink>true</hyperlink>
-          <nonselectedPictureText>
-            <key>ru</key>
-            <value>Нажмите, чтобы выбрать фото</value>
-          </nonselectedPictureText>
-          <border xsi:type="core:BorderDef">
-            <style>Single</style>
-            <width>1</width>
-          </border>
-          <fileDragMode>AsFileRef</fileDragMode>
-        </extInfo>
-      </items>
+    <items xsi:type="form:FormField">
+      <name>АдресФото</name>
+      <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Кнопка и фото</value>
-      </title>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АдресФото</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>КнопкаИФотоРасширеннаяПодсказка</name>
-        <id>35</id>
+        <name>АдресФотоРасширеннаяПодсказка</name>
+        <id>31</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -129,14 +25,61 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>Vertical</group>
-        <behavior>Auto</behavior>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
+      <contextMenu>
+        <name>АдресФотоКонтекстноеМеню</name>
+        <id>30</id>
+        <items xsi:type="form:Button">
+          <name>АдресФотоКонтекстноеМенюОчистить</name>
+          <id>32</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>АдресФотоКонтекстноеМенюОчиститьРасширеннаяПодсказка</name>
+            <id>33</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.Очистить</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>PictureField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:ImageFieldExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>АдресФотоНажатие</name>
+        </handlers>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <pictureSize>Proportionally</pictureSize>
+        <hyperlink>true</hyperlink>
+        <nonselectedPictureText>
+          <key>ru</key>
+          <value>Нажмите, чтобы выбрать фото</value>
+        </nonselectedPictureText>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -447,31 +390,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>ФормаКопироватьДанныеСотрудникаВБуферОбмена</name>
-      <id>38</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаКопироватьДанныеСотрудникаВБуферОбменаРасширеннаяПодсказка</name>
-        <id>39</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.КопироватьДанныеСотрудникаВБуферОбмена</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -601,40 +519,6 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Очистить</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВставитьИзБуфераОбмена</name>
-    <title>
-      <key>ru</key>
-      <value>Вставить из буфера обмена</value>
-    </title>
-    <id>2</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВставитьИзБуфераОбмена</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>КопироватьДанныеСотрудникаВБуферОбмена</name>
-    <title>
-      <key>ru</key>
-      <value>Копировать данные сотрудника в буфер обмена</value>
-    </title>
-    <id>3</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>КопироватьДанныеСотрудникаВБуферОбмена</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

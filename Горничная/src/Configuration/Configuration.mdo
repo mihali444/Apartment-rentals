@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccda6135-cfdd-4c74-ba0c-0ba6acc5beb9">
+  <name>Горничная</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="610e5527-6e19-47c0-adaa-61b69c4a1f92"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2c621d54-3663-481f-a114-171ba32d6c35"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d8d43fd8-21a9-493c-8b3a-8c3d49bbf2cf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2ee1fae5-1014-4b01-acfe-b50af3603004"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8283e61d-128b-4c5e-a8dc-d2743d58c8ed"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="53c31d07-a78a-4ebe-a3f2-5fc49109b3c7"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8588a3b8-8106-41d4-aeb2-d7e493eeec45"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_5</interfaceCompatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="056eff7f-9569-4b94-844b-ddf47e6df11f">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Уборка</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Горничная</roles>
+  <roles>Role.СисАдминГорничной</roles>
+  <catalogs>Catalog.Квартиры</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ЗаданияНаУборку</documents>
+  <documents>Document.Уборка</documents>
+  <enums>Enum.Должность</enums>
+  <enums>Enum.Статус</enums>
+</mdclass:Configuration>

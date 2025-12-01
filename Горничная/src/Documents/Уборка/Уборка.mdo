@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d213c828-18ed-4af4-b364-368f0500ef89">
+  <producedTypes>
+    <objectType typeId="723d6a35-aafb-4964-9289-9f23c57adea4" valueTypeId="dbe6d8dd-f822-4f85-9206-b94a87cab37e"/>
+    <refType typeId="cf2c06f2-5a68-4539-ba0c-be49c4be687c" valueTypeId="efeead29-5ad2-4192-8bff-679feab6fc6f"/>
+    <selectionType typeId="375b28ff-1d72-4819-97fb-9c30c8f9c326" valueTypeId="21b5ef52-9270-44b3-a484-0c9f41daa82a"/>
+    <listType typeId="c112a6ca-d300-46ca-80af-9f738eba80cf" valueTypeId="3245ce71-445a-49c7-98e4-a0681b16d6e6"/>
+    <managerType typeId="81e17739-427a-4d5b-8f39-fe16516473b2" valueTypeId="81e7e047-073f-4a10-861c-5f5a0ff5418a"/>
+  </producedTypes>
+  <name>Уборка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уборка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Уборка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ЗаданияНаУборку</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Уборки</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Уборка.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0bf9c935-835f-4386-9423-9b9f111aba1e">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Квартиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c367fa7a-66da-4be5-a133-40a08a2b791b">
+    <name>ДатаНачалаУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="faff1527-9078-492e-9314-f0ccd4d24fd3">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c18b321-0d41-4d89-a5e1-6143f6759f37">
+    <name>ДатаОкончанияУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8ffaf22-edb3-4665-842f-d8f510e849d7">
+    <name>ФотоДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото до</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c3cb33a-4158-47c5-8862-f3c42ebe16fa">
+    <name>ФотоПосле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото после</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2050d700-6f67-4667-93e9-aba057873564">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

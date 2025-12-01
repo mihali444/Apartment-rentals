@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f153a261-fa1c-4d20-be51-4601a14cef96">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67ee4443-beef-41d4-b9f6-571ab07d7526">
   <producedTypes>
-    <objectType typeId="cbed7ee7-3b0e-4132-a840-d5711be5e7c4" valueTypeId="74d28ccd-ef9e-41d8-80aa-2123f365e354"/>
-    <refType typeId="e85125d7-3762-4f1c-84bb-ceca3e558f58" valueTypeId="a79bd332-1264-4f3e-8a6c-1c85c523a394"/>
-    <selectionType typeId="1a2b62ce-d624-4c19-b6a6-ac53683732bc" valueTypeId="718a089b-b88a-4275-8ef2-3d3b7907a3cb"/>
-    <listType typeId="b10fb294-9177-458c-a63c-793758b93da6" valueTypeId="13b661e9-f452-4a31-934a-80fc94b1440d"/>
-    <managerType typeId="104bf9a1-f853-421c-b8e5-25c9563a03fe" valueTypeId="b6f48fe1-8165-446b-810c-df1be737a029"/>
+    <objectType typeId="c0c6dafc-fcdb-4e45-938f-da8c2ff39632" valueTypeId="bffceb55-9722-4ba2-b625-3ab930626007"/>
+    <refType typeId="cc5f0597-c03b-4d64-bbc3-f0df1545639d" valueTypeId="c0fc3d27-1db4-435c-a149-e23f1bee4be0"/>
+    <selectionType typeId="b05ca54b-3c80-4346-b173-8b94e76440bd" valueTypeId="485131ec-dc78-4af1-ad72-e4df262a09da"/>
+    <listType typeId="d815970e-6bd9-458e-9fbb-6aef6000446f" valueTypeId="5709f39d-7c6e-4e88-9d98-a667662b41c1"/>
+    <managerType typeId="7ff4d24d-164a-4776-8da1-7118c32f2cd3" valueTypeId="93fae43e-e003-4710-9a1f-2b17e34ee9be"/>
   </producedTypes>
-  <name>Квартиры</name>
+  <name>Сотрудники</name>
   <synonym>
     <key>ru</key>
-    <value>Квартиры</value>
+    <value>Сотрудники</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Квартиры.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Квартиры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Сотрудники.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -77,7 +77,7 @@
     <name>Description</name>
     <synonym>
       <key>ru</key>
-      <value>Адрес</value>
+      <value>ФИО</value>
     </synonym>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -98,9 +98,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Квартира</value>
+    <value>Сотрудник</value>
   </objectPresentation>
-  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -112,19 +111,16 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="cfaac874-16b2-400b-8311-30356300bad5">
-    <name>КоличествоКомнат</name>
+  <defaultObjectForm>Catalog.Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Сотрудники.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="74cb7a21-6250-4296-94b0-1ff99c116cd7">
+    <name>Должность</name>
     <synonym>
       <key>ru</key>
-      <value>Количество комнат</value>
+      <value>Должность</value>
     </synonym>
-    <comment>Если студия, то комнат - 0</comment>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
+      <types>EnumRef.Должность</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -133,4 +129,52 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c282ee2d-ccf2-4a07-be10-a39ad52f01a8">
+    <name>ИндентификаторПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индентификатор пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9bb25ed-5213-4b8c-9172-6c8e8f389d30">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7aeba39e-44c5-4869-b72c-df0bf46fcc5c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fc62d0f1-a7fa-4754-b88f-08d36a59d80b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f153a261-fa1c-4d20-be51-4601a14cef96">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b4e2e8-7e02-46fe-9f50-640d2d903e05">
   <producedTypes>
-    <objectType typeId="cbed7ee7-3b0e-4132-a840-d5711be5e7c4" valueTypeId="74d28ccd-ef9e-41d8-80aa-2123f365e354"/>
-    <refType typeId="e85125d7-3762-4f1c-84bb-ceca3e558f58" valueTypeId="a79bd332-1264-4f3e-8a6c-1c85c523a394"/>
-    <selectionType typeId="1a2b62ce-d624-4c19-b6a6-ac53683732bc" valueTypeId="718a089b-b88a-4275-8ef2-3d3b7907a3cb"/>
-    <listType typeId="b10fb294-9177-458c-a63c-793758b93da6" valueTypeId="13b661e9-f452-4a31-934a-80fc94b1440d"/>
-    <managerType typeId="104bf9a1-f853-421c-b8e5-25c9563a03fe" valueTypeId="b6f48fe1-8165-446b-810c-df1be737a029"/>
+    <objectType typeId="3e6f5cf6-340a-4655-b119-b406d2447de1" valueTypeId="4b36cc1a-e252-4031-9029-f088a5d53fa6"/>
+    <refType typeId="505ca52e-8a1c-41ee-b594-c9aef815e2e7" valueTypeId="1ec618ef-36b8-4c86-8686-ce5856fe7dc4"/>
+    <selectionType typeId="f26a0734-ac4b-480d-addc-38b3815cb564" valueTypeId="a6f5ed9c-8511-42ab-bfa2-b8233e654e70"/>
+    <listType typeId="28b86a4b-be2d-418b-878a-04c9e672a86a" valueTypeId="43a46ee0-ea2a-42a6-8692-108e153e3be3"/>
+    <managerType typeId="1d14015d-bbb9-424e-b99c-3bb0dba8761b" valueTypeId="c8813066-fd0d-4435-bde6-0d437f7a60a8"/>
   </producedTypes>
   <name>Квартиры</name>
   <synonym>
@@ -112,7 +112,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="cfaac874-16b2-400b-8311-30356300bad5">
+  <attributes uuid="d7e98a87-e268-48c1-8456-6b405b3cf5a1">
     <name>КоличествоКомнат</name>
     <synonym>
       <key>ru</key>

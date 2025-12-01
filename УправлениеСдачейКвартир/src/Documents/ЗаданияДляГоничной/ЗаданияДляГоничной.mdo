@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="faf30c1c-e873-4a11-aab6-5c4901a2da0d">
+  <producedTypes>
+    <objectType typeId="df85e690-464c-402c-8d92-66baf3fd83a1" valueTypeId="4fbe315f-e83d-4626-ab8f-687d3657cb77"/>
+    <refType typeId="6448f81b-b584-4d0e-8e84-2f15bd43740a" valueTypeId="3e5ccb37-00e0-4342-87f2-96b39b4ef963"/>
+    <selectionType typeId="84f7b7b1-deb4-4954-8979-9d07a610fc9f" valueTypeId="80133cd8-fab3-40c3-82bb-2612c1c7bfff"/>
+    <listType typeId="3f7f8a71-13ae-4324-ac60-53938c14120c" valueTypeId="2cd683fb-d309-4d27-b3be-99ed3a615045"/>
+    <managerType typeId="f69986fe-6d1e-4e57-a1d6-5762dcc966d6" valueTypeId="c7f8d145-b9ca-46cf-88bc-955708d4a40e"/>
+  </producedTypes>
+  <name>ЗаданияДляГоничной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания для гоничной</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаданияДляГоничной.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список заданий для горничной</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаданияДляГоничной.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e9a60678-102a-4d3a-8250-9242830f850e">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Квартиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bca6efa-cde5-4af2-b3d4-b8cc8bc21c68">
+    <name>ДатаУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="afe475cf-80b9-4ef3-b2e1-c1683cdf07cd">
+    <name>ЗаданиеНаУборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на уборку</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a42a432-6b4f-41e2-aefb-5b3e23284f0c">
+    <name>Горничная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Горничная</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1e2db49-37a8-442c-ad39-9a366062c42d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fe4b00e4-d8b7-497e-bb50-1cd38677ad6f">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

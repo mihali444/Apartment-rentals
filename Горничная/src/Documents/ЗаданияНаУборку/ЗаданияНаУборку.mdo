@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37060cb6-585f-4bbf-8cd5-2d6f6bed215f">
+  <producedTypes>
+    <objectType typeId="3fbf9707-3f01-47f0-a534-073713196434" valueTypeId="8a33b66e-53da-4325-8f56-81c690f83224"/>
+    <refType typeId="5b5e84bc-0e0b-4063-93f2-3a4425ae47f8" valueTypeId="698c906d-8a49-44ac-aabc-f96fc4a7bb6c"/>
+    <selectionType typeId="e3949fdd-a2ec-4b7f-9e0a-c5b52a788cbc" valueTypeId="d2ecbf4a-9c52-49df-856b-69e9adbffb23"/>
+    <listType typeId="078bfb17-1380-47c2-b264-1c4f07a3ac78" valueTypeId="748b4e9a-d416-4a6e-b31d-d5030bc4a87b"/>
+    <managerType typeId="db272af2-98ae-4aa3-9b1f-db181bd60bd3" valueTypeId="f8ea9b23-35cc-4407-8220-8055f656c241"/>
+  </producedTypes>
+  <name>ЗаданияНаУборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания на уборку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаданияНаУборку.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список заданий на уборку</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаданияНаУборку.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаданияНаУборку.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6c0e2631-65ed-489e-9e62-3192accd13ab">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Квартиры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7383dce-aa85-4a8e-bb50-f454d2881687">
+    <name>ДатаУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8765fafa-b259-47b1-b0a4-944dcebd5200">
+    <name>ЗаданиеНаУборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание на уборку</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8cb3f608-7861-4482-8d00-0e88bfa91780">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="726cf2c0-2288-4838-b608-dfe8b098afbf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

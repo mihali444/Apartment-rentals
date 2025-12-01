@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e67fe8c-0847-436e-8d76-b9f27468bdd7">
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dbccd624-94bf-48a8-98c6-61305f685392">
   <producedTypes>
-    <refType typeId="8c89e867-040d-4d77-9430-b5e0d962534c" valueTypeId="2acd159f-3440-4040-b2ca-37a579aff35a"/>
-    <listType typeId="5ebdabcc-74fa-4743-96ad-4f2e1e4e5a78" valueTypeId="aeceb3e7-16ce-445c-ae7e-96d606f3a2bb"/>
-    <managerType typeId="f9a65b53-8f5f-4d8a-a2e1-b1161e5d2b09" valueTypeId="fc849ca1-286d-482e-953b-2cfd408718b6"/>
+    <refType typeId="3fe5dca4-d7b3-4388-9ff1-c2404a52fbc4" valueTypeId="f5445866-cb54-47cb-a9f7-e85d99bcc8d3"/>
+    <listType typeId="87f15568-0b17-4376-ad98-a68649cfe080" valueTypeId="9c442cdd-5b97-4b7e-8012-143838583629"/>
+    <managerType typeId="d5f3e992-260c-4100-b859-5048e362792b" valueTypeId="fb0e9ac9-aa99-41a2-b28a-fc45c53c55c2"/>
   </producedTypes>
   <name>Должность</name>
   <synonym>
@@ -12,28 +12,28 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="e0a12526-8ff2-4979-aae5-96fdf3cf4a28">
+  <enumValues uuid="36c8f019-9720-4c8e-9a12-fd4c1655b916">
     <name>Администратор</name>
     <synonym>
       <key>ru</key>
       <value>Администратор</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="de19dcf2-9d8f-428e-8aa4-634f8a9110bf">
+  <enumValues uuid="45cb2aea-b0ad-408e-8f24-105d6af1e22e">
     <name>МенеджерПоРаботеССобственниками</name>
     <synonym>
       <key>ru</key>
       <value>Менеджер по работе с собственниками</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="90a20211-3081-489b-956c-299c057bd917">
+  <enumValues uuid="189f9969-a9fa-443c-9437-3daaa3f8f220">
     <name>МенеджерПоРаботеСАрендаторами</name>
     <synonym>
       <key>ru</key>
       <value>Менеджер по работе с арендаторами</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="f248ed50-51ec-4664-a4de-667611df884f">
+  <enumValues uuid="a69d371b-a7be-4552-a1a5-dd69774140d4">
     <name>Горничная</name>
     <synonym>
       <key>ru</key>

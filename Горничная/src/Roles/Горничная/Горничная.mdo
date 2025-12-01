@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b2637fc-0de0-4749-82a2-a800b3af4eb3">
+  <name>Горничная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Горничная</value>
+  </synonym>
+</mdclass:Role>

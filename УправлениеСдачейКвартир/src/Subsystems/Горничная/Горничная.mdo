@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8484874-7ca5-4867-b245-e9b6257190be">
+  <name>Горничная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Горничная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаданияДляГоничной</content>
+</mdclass:Subsystem>

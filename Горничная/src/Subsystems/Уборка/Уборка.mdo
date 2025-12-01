@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d5d6ded-61a6-4b07-a6ff-619390bacb1a">
+  <name>Уборка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уборка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаданияНаУборку</content>
+  <content>Document.Уборка</content>
+</mdclass:Subsystem>
