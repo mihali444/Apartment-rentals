@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Мобильное приложение</value>
   </synonym>
-  <rootURL>mobile </rootURL>
+  <rootURL>mobile</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="2acf860a-7177-4747-8c19-c39a40ed7917">

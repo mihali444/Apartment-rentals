@@ -55,6 +55,7 @@
   <roles>Role.ПолныеПрава</roles>
   <commonModules>CommonModule.ПроверкиВДокументах</commonModules>
   <commonModules>CommonModule.РассчетКоличестваВремени</commonModules>
+  <commonModules>CommonModule.ФормированиеАрхивов</commonModules>
   <commonModules>CommonModule.ЦеныНаКвартирыПосуточноВызовСервера</commonModules>
   <httpServices>HTTPService.МобильноеПриложение</httpServices>
   <catalogs>Catalog.Договоры</catalogs>
