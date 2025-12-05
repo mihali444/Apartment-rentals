@@ -41,6 +41,7 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Горничная</roles>
   <roles>Role.СисАдминГорничной</roles>
+  <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>

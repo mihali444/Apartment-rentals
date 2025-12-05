@@ -24,4 +24,20 @@
       <handler>pingПроверитьДоступноость</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="4efb88b7-4037-48dc-898f-95577907fe22">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <template>/exchange</template>
+    <methods uuid="752bdb67-cc80-433a-a73b-c25110dc07f7">
+      <name>ПолучитьДанные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить данные</value>
+      </synonym>
+      <handler>ExchangeПолучитьДанные</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>
