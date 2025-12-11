@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98451d34-dde1-4261-9790-0debbe6ad9e0">
+  <producedTypes>
+    <objectType typeId="1aab2e20-1b11-44e3-9260-c6ba76317c67" valueTypeId="0062c063-9393-4b11-824f-f8dbf16b126e"/>
+    <managerType typeId="8cd268ba-e076-4910-a777-f48c6cfdb2d5" valueTypeId="e8f1eb62-7702-42be-b85b-4f6d235580d5"/>
+  </producedTypes>
+  <name>ОбменСЦентральнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с центральной базой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбменСЦентральнойБазой.Form.Форма</defaultForm>
+  <forms uuid="72a02b20-4de3-4c3c-bc8b-1e9d9d0355ab">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

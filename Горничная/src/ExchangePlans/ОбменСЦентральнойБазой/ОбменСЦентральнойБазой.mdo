@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="867c9dce-35ff-4df8-8d80-ffd01f9f10a6" thisNode="53be3b15-0e15-4bd1-907c-af389c36d9ef">
+  <producedTypes>
+    <objectType typeId="6531cf17-6d04-44ef-b8d2-034978536373" valueTypeId="25e7d824-73a7-4b28-ac7c-95a191121dad"/>
+    <refType typeId="80096ee7-00c0-4e21-a830-1b500e424f36" valueTypeId="51742239-17e1-4c54-906d-e4909b6dbc92"/>
+    <selectionType typeId="de0fd1de-ebed-492b-a90b-ddc7f23e64c4" valueTypeId="05a23e16-3fbe-4647-9f8a-ad93cd759bca"/>
+    <listType typeId="8f4980a0-e04f-4636-bc84-a151121386fd" valueTypeId="837290ee-c99f-4b05-9029-f0f69f60e077"/>
+    <managerType typeId="951d7741-5dc8-4b53-8b3f-e42921d2e763" valueTypeId="1b5dbd61-571d-4f3c-b162-d69a4be0791c"/>
+  </producedTypes>
+  <name>ОбменСЦентральнойБазой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с центральной базой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменСЦентральнойБазой.StandardAttribute.Code</inputByString>
+  <inputByString>ExchangePlan.ОбменСЦентральнойБазой.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Узлы обмена с центральной базой</value>
+  </listPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <content>
+    <mdObject>Document.Уборка</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

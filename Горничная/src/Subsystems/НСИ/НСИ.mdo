@@ -10,4 +10,6 @@
   <content>Catalog.Квартиры</content>
   <content>Catalog.Клиенты</content>
   <content>Catalog.Сотрудники</content>
+  <content>DataProcessor.ОбменСЦентральнойБазой</content>
+  <content>Catalog.Договоры</content>
 </mdclass:Subsystem>

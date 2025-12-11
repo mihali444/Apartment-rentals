@@ -19,6 +19,42 @@
       <functionality>OSBackup</functionality>
       <use>true</use>
     </functionality>
+    <functionality>
+      <functionality>Location</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>BackgroundLocation</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Geofences</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>PushNotifications</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>LocalNotifications</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>NumberDialing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallProcessing</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>CallLog</functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>Camera</functionality>
+      <use>true</use>
+    </functionality>
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
@@ -38,9 +74,14 @@
   </languages>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Уборка</subsystems>
+  <commonPictures>CommonPicture.Геопозиция</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Горничная</roles>
   <roles>Role.СисАдминГорничной</roles>
+  <exchangePlans>ExchangePlan.ОбменСЦентральнойБазой</exchangePlans>
+  <constants>Constant.АдресЦентральнойБазы</constants>
+  <constants>Constant.ЛогинЦентральнойБазы</constants>
+  <constants>Constant.ПарольЦентральнойБазы</constants>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
@@ -49,4 +90,5 @@
   <documents>Document.Уборка</documents>
   <enums>Enum.Должность</enums>
   <enums>Enum.Статус</enums>
+  <dataProcessors>DataProcessor.ОбменСЦентральнойБазой</dataProcessors>
 </mdclass:Configuration>

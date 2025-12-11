@@ -54,7 +54,9 @@
     </synonym>
     <type>
       <types>Date</types>
-      <dateQualifiers/>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -71,22 +73,6 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="7c18b321-0d41-4d89-a5e1-6143f6759f37">
-    <name>ДатаОкончанияУборки</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата окончания уборки</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -117,6 +103,58 @@
     </synonym>
     <type>
       <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9967c53-56fc-479b-a0b6-9b141ce2496d">
+    <name>ВремяНачалаУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4937c44e-fc81-4707-baa6-6fc57e441575">
+    <name>ВремяОкончанияУборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания уборки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f93ab23-f9ea-40aa-9e51-94d6e7355fe0">
+    <name>Геопозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Геопозиция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
