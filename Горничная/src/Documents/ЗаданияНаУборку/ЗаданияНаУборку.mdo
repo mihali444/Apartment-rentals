@@ -78,6 +78,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="015b1f85-03ca-4a95-a384-4b29660b8a38">
+    <name>ТелефонКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон клиента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="8cb3f608-7861-4482-8d00-0e88bfa91780">
     <name>ФормаДокумента</name>
     <synonym>

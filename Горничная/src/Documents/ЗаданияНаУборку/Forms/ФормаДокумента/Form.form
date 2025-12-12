@@ -53,6 +53,54 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ТелефонКлиента</name>
+      <id>25</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ТелефонКлиента</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТелефонКлиентаРасширеннаяПодсказка</name>
+        <id>27</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТелефонКлиентаКонтекстноеМеню</name>
+        <id>26</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <selectedItemsActionsPanel>
+        <name>ТелефонКлиентаПанельДействийВыделенныхСтрок</name>
+        <id>28</id>
+        <fillStdCommands>true</fillStdCommands>
+        <horizontalAlign>Left</horizontalAlign>
+        <appearanceMode>CommandBar</appearanceMode>
+      </selectedItemsActionsPanel>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+        <textSize>Normal</textSize>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ДатаУборки</name>
       <id>15</id>
       <visible>true</visible>

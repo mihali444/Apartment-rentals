@@ -75,6 +75,7 @@
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Уборка</subsystems>
   <commonPictures>CommonPicture.Геопозиция</commonPictures>
+  <commonPictures>CommonPicture.звонок</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.Горничная</roles>
   <roles>Role.СисАдминГорничной</roles>
